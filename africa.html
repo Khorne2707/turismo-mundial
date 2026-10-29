@@ -2,15 +2,12 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>África - Turismo Mundial</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
 
+    <!-- Menú -->
     <table class="menu">
         <tr>
             <td><a href="index.html" class="logo">Turismo <span>Mundial</span></a></td>
@@ -24,34 +21,36 @@
         </tr>
     </table>
 
-    <header class="hero hero-chico hero-africa">
-        <div class="capa"></div>
-        <div class="texto-hero">
-            <div class="migas"><a href="index.html">Inicio</a> / África</div>
-            <h1>África</h1>
-            <p>Sabanas, el Sahara, selvas y deltas</p>
-        </div>
-    </header>
+    <!-- Portada -->
+    <table class="portada portada-africa">
+        <tr>
+            <td>
+                <p><a href="index.html">Inicio</a> / África</p>
+                <h1>África</h1>
+                <p>Sabanas, el Sahara, selvas y deltas</p>
+            </td>
+        </tr>
+    </table>
 
-    <section class="seccion">
-        <table class="intro">
+    <!-- Descripción breve -->
+    <div class="seccion">
+        <table class="descripcion">
             <tr>
-                <td class="etiqueta-grande">La cuna de la <span>humanidad</span></td>
-                <td><p>África es la cuna de la humanidad y uno de los destinos naturales más impresionantes del mundo. Sus sabanas albergan la gran migración de animales, el Sahara es el desierto cálido más grande del planeta y sus selvas y deltas protegen especies únicas como el gorila de montaña. Es el destino ideal para vivir un auténtico safari.</p></td>
+                <td class="frase">La cuna de la <span>humanidad</span></td>
+                <td>África es la cuna de la humanidad y uno de los destinos naturales más impresionantes del mundo. Sus sabanas albergan la gran migración de animales, el Sahara es el desierto cálido más grande del planeta y sus selvas y deltas protegen especies únicas como el gorila de montaña. Es el destino ideal para vivir un auténtico safari.</td>
             </tr>
         </table>
-    </section>
+    </div>
 
-    <section class="fondo-gris">
+    <!-- Ecosistemas -->
+    <div class="fondo-gris">
         <div class="seccion">
-            <div class="titulo-seccion">
-                <h2>Ecosistemas</h2>
-                <p>Actividad principal, hotel y restaurante recomendados en cada uno</p>
-            </div>
+            <h2 class="titulo">Ecosistemas</h2>
+            <p class="subtitulo">Actividad principal, hotel y restaurante recomendados en cada uno</p>
             <table class="ecosistemas">
             <tr>
                 <td class="ecosistema">
-                    <img src="img/serengeti.jpg" alt="Sabana del Serengeti, Tanzania">
+                    <img src="img/serengeti.jpg" alt="Sabana del Serengeti">
                     <div class="cuerpo">
                         <span class="pais">Tanzania</span>
                         <h3>Sabana del Serengeti</h3>
@@ -63,17 +62,17 @@
                             </tr>
                             <tr>
                                 <th>Hotel</th>
-                                <td>Four Seasons Safari Lodge Serengeti<small>Parque Nacional Serengeti</small></td>
+                                <td><img class="foto-lugar" src="img/h-serengeti.jpg" alt="Four Seasons Safari Lodge Serengeti">Four Seasons Safari Lodge Serengeti<br><small>Parque Nacional Serengeti</small></td>
                             </tr>
                             <tr>
                                 <th>Restaurante</th>
-                                <td>Kula's<small>Four Seasons Safari Lodge</small></td>
+                                <td><img class="foto-lugar" src="img/r-kulas.jpg" alt="Kula's">Kula's<br><small>Four Seasons Safari Lodge</small></td>
                             </tr>
                         </table>
                     </div>
                 </td>
                 <td class="ecosistema">
-                    <img src="img/sahara.jpg" alt="Desierto del Sahara, Marruecos">
+                    <img src="img/sahara.jpg" alt="Desierto del Sahara">
                     <div class="cuerpo">
                         <span class="pais">Marruecos</span>
                         <h3>Desierto del Sahara</h3>
@@ -85,11 +84,11 @@
                             </tr>
                             <tr>
                                 <th>Hotel</th>
-                                <td>Kasbah Hotel Tombouctou<small>Merzouga</small></td>
+                                <td><img class="foto-lugar" src="img/h-tombouctou.jpg" alt="Kasbah Hotel Tombouctou">Kasbah Hotel Tombouctou<br><small>Merzouga</small></td>
                             </tr>
                             <tr>
                                 <th>Restaurante</th>
-                                <td>Nomad<small>Medina de Marrakech</small></td>
+                                <td><img class="foto-lugar" src="img/r-nomad.jpg" alt="Nomad">Nomad<br><small>Medina de Marrakech</small></td>
                             </tr>
                         </table>
                     </div>
@@ -97,7 +96,7 @@
             </tr>
             <tr>
                 <td class="ecosistema">
-                    <img src="img/bwindi.jpg" alt="Bosque impenetrable de Bwindi, Uganda">
+                    <img src="img/bwindi.jpg" alt="Bosque impenetrable de Bwindi">
                     <div class="cuerpo">
                         <span class="pais">Uganda</span>
                         <h3>Bosque impenetrable de Bwindi</h3>
@@ -109,17 +108,17 @@
                             </tr>
                             <tr>
                                 <th>Hotel</th>
-                                <td>Volcanoes Bwindi Lodge<small>Buhoma</small></td>
+                                <td><img class="foto-lugar" src="img/h-bwindi.jpg" alt="Volcanoes Bwindi Lodge">Volcanoes Bwindi Lodge<br><small>Buhoma</small></td>
                             </tr>
                             <tr>
                                 <th>Restaurante</th>
-                                <td>Café Javas<small>Kampala</small></td>
+                                <td><img class="foto-lugar" src="img/r-javas.jpg" alt="Café Javas">Café Javas<br><small>Kampala</small></td>
                             </tr>
                         </table>
                     </div>
                 </td>
                 <td class="ecosistema">
-                    <img src="img/okavango.jpg" alt="Delta del Okavango, Botsuana">
+                    <img src="img/okavango.jpg" alt="Delta del Okavango">
                     <div class="cuerpo">
                         <span class="pais">Botsuana</span>
                         <h3>Delta del Okavango</h3>
@@ -131,11 +130,11 @@
                             </tr>
                             <tr>
                                 <th>Hotel</th>
-                                <td>Belmond Eagle Island Lodge<small>Delta del Okavango</small></td>
+                                <td><img class="foto-lugar" src="img/h-eagle.jpg" alt="Belmond Eagle Island Lodge">Belmond Eagle Island Lodge<br><small>Delta del Okavango</small></td>
                             </tr>
                             <tr>
                                 <th>Restaurante</th>
-                                <td>Hilary's<small>Maun</small></td>
+                                <td><img class="foto-lugar" src="img/r-hilarys.jpg" alt="Hilary's">Hilary's<br><small>Maun</small></td>
                             </tr>
                         </table>
                     </div>
@@ -143,73 +142,65 @@
             </tr>
             </table>
         </div>
-    </section>
+    </div>
 
-    <section class="seccion">
-        <div class="titulo-seccion">
-            <h2>Otros destinos</h2>
-        </div>
-        <table class="mosaico">
+    <!-- Otros destinos -->
+    <div class="seccion">
+        <h2 class="titulo">Otros destinos</h2>
+        <table class="continentes">
             <tr>
-                <td class="tarjeta tarjeta-chica">
+                <td class="tarjeta">
                     <a href="america.html">
-                        <img src="img/rocosas.jpg" alt="Lago Moraine en las Montañas Rocosas de Canadá">
-                        <div class="pie-tarjeta">
-                            <h3>América</h3>
-                        </div>
+                        <img src="img/rocosas.jpg" alt="América">
+                        <h3>América</h3>
                     </a>
                 </td>
-                <td class="tarjeta tarjeta-chica">
+                <td class="tarjeta">
                     <a href="europa.html">
-                        <img src="img/santorini.jpg" alt="Casas blancas de Oia en Santorini, Grecia">
-                        <div class="pie-tarjeta">
-                            <h3>Europa</h3>
-                        </div>
+                        <img src="img/santorini.jpg" alt="Europa">
+                        <h3>Europa</h3>
                     </a>
                 </td>
-                <td class="tarjeta tarjeta-chica">
+                <td class="tarjeta">
                     <a href="asia.html">
-                        <img src="img/himalaya.jpg" alt="Monte Everest visto desde Gokyo Ri, Nepal">
-                        <div class="pie-tarjeta">
-                            <h3>Asia</h3>
-                        </div>
+                        <img src="img/himalaya.jpg" alt="Asia">
+                        <h3>Asia</h3>
                     </a>
                 </td>
-                <td class="tarjeta tarjeta-chica">
+                <td class="tarjeta">
                     <a href="oceania.html">
-                        <img src="img/borabora.jpg" alt="Laguna turquesa de Bora Bora">
-                        <div class="pie-tarjeta">
-                            <h3>Oceanía</h3>
-                        </div>
+                        <img src="img/borabora.jpg" alt="Oceanía">
+                        <h3>Oceanía</h3>
                     </a>
                 </td>
             </tr>
         </table>
-    </section>
+    </div>
 
-    <footer class="pie">
-        <table class="pie-tabla">
-            <tr>
-                <td>
-                    <a href="index.html" class="logo">Turismo <span>Mundial</span></a>
-                    <p>Guía de viaje por los cinco continentes: ecosistemas, actividades, hoteles y restaurantes recomendados.</p>
-                </td>
-                <td>
-                    <h3>Continentes</h3>
-                    <a href="america.html">América</a>
-                    <a href="europa.html">Europa</a>
-                    <a href="asia.html">Asia</a>
-                    <a href="africa.html">África</a>
-                    <a href="oceania.html">Oceanía</a>
-                </td>
-                <td>
-                    <h3>Información</h3>
-                    <a href="index.html">Inicio</a>
-                </td>
-            </tr>
-        </table>
-        <div class="pie-final">Khorne &copy; 2026 · Página desarrollada con HTML y CSS</div>
-    </footer>
+    <!-- Pie de página -->
+    <table class="pie">
+        <tr>
+            <td>
+                <a href="index.html" class="logo">Turismo <span>Mundial</span></a>
+                <p>Guía de viaje por los cinco continentes.</p>
+            </td>
+            <td>
+                <h3>Continentes</h3>
+                <a href="america.html">América</a><br>
+                <a href="europa.html">Europa</a><br>
+                <a href="asia.html">Asia</a><br>
+                <a href="africa.html">África</a><br>
+                <a href="oceania.html">Oceanía</a>
+            </td>
+            <td>
+                <h3>Información</h3>
+                <a href="index.html">Inicio</a><br>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3" class="final">Khorne &copy; 2026 · Página hecha con HTML y CSS</td>
+        </tr>
+    </table>
 
 </body>
 </html>
