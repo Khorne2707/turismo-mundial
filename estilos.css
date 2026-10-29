@@ -275,6 +275,12 @@ img {
     font-size: 14px;
 }
 
+.foto-lugar {
+    width: 100%;
+    margin-bottom: 6px;
+    border-radius: 6px;
+}
+
 .recomendaciones small {
     color: #888888;
 }
