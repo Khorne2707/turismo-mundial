@@ -340,3 +340,89 @@ img {
     padding: 15px;
     font-size: 14px;
 }
+
+/* ===== Celular (pantallas de 700px o menos) ===== */
+@media (max-width: 700px) {
+
+    /* Menú: logo arriba y enlaces abajo, centrados */
+    .menu td {
+        display: block;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .enlaces a {
+        margin: 0 6px;
+        font-size: 14px;
+    }
+
+    /* Portada más baja y con letra más chica */
+    .portada {
+        height: 280px;
+    }
+
+    .portada td {
+        padding: 0 16px;
+    }
+
+    .portada h1 {
+        font-size: 36px;
+    }
+
+    .portada p {
+        font-size: 16px;
+    }
+
+    /* Secciones a lo ancho de la pantalla */
+    .seccion {
+        width: auto;
+        padding: 30px 16px;
+    }
+
+    .titulo {
+        font-size: 26px;
+    }
+
+    /* Las celdas de las tablas se ponen una debajo de otra */
+    .tarjeta,
+    .ecosistema,
+    .descripcion td,
+    .pie td {
+        display: block;
+        width: auto;
+        margin-bottom: 14px;
+    }
+
+    .continentes,
+    .ecosistemas {
+        border-spacing: 0;
+    }
+
+    /* Descripción: la frase arriba con línea rosa abajo */
+    .descripcion td {
+        padding: 0;
+        font-size: 16px;
+    }
+
+    .descripcion .frase {
+        width: auto;
+        font-size: 24px;
+        border-right: none;
+        border-bottom: 4px solid #e6007e;
+        padding-bottom: 10px;
+    }
+
+    /* Franja de cifras más compacta */
+    .franja td {
+        padding: 20px 4px;
+        font-size: 13px;
+    }
+
+    .franja b {
+        font-size: 28px;
+    }
+
+    .pie td {
+        padding: 20px 16px 0;
+    }
+}
