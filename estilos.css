@@ -1,0 +1,336 @@
+/* ===== Estilos generales ===== */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+    background-color: #ffffff;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+img {
+    display: block;
+}
+
+/* ===== Menú ===== */
+.menu {
+    width: 100%;
+    background-color: #1d1d1b;
+}
+
+.menu td {
+    padding: 18px 30px;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.logo span {
+    color: #e6007e;
+}
+
+.enlaces {
+    text-align: right;
+}
+
+.enlaces a {
+    margin-left: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.enlaces a:hover,
+.enlaces .activo {
+    color: #e6007e;
+}
+
+/* ===== Portada ===== */
+.portada {
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+}
+
+.portada td {
+    padding: 0 60px;
+    vertical-align: middle;
+}
+
+.portada h1 {
+    font-size: 64px;
+    text-shadow: 2px 2px 8px #000000;
+}
+
+.portada p {
+    font-size: 20px;
+    text-shadow: 1px 1px 6px #000000;
+}
+
+.portada a {
+    color: #ffffff;
+}
+
+/* Foto de portada de cada página */
+.portada-inicio  { background-image: url("img/portada.jpg"); }
+.portada-america { background-image: url("img/rocosas.jpg"); }
+.portada-europa  { background-image: url("img/santorini.jpg"); }
+.portada-asia    { background-image: url("img/himalaya.jpg"); }
+.portada-africa  { background-image: url("img/serengeti.jpg"); }
+.portada-oceania { background-image: url("img/borabora.jpg"); }
+
+.boton {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #e6007e;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+.boton:hover {
+    background-color: #b80065;
+}
+
+/* ===== Secciones ===== */
+.seccion {
+    width: 1100px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 34px;
+    color: #1d1d1b;
+    margin-bottom: 10px;
+}
+
+.subtitulo {
+    text-align: center;
+    color: #777777;
+    margin-bottom: 30px;
+}
+
+.fondo-gris {
+    background-color: #f4f4f4;
+}
+
+/* ===== Tarjetas de continentes ===== */
+.continentes {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: separate;
+    border-spacing: 12px;
+}
+
+.tarjeta {
+    padding: 0;
+    background-color: #e6007e;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.tarjeta a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.tarjeta img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.tarjeta h3 {
+    padding: 12px 10px 4px;
+    font-size: 24px;
+}
+
+.tarjeta p {
+    margin: 0;
+    padding: 0 10px 14px;
+}
+
+.tarjeta:hover {
+    background-color: #b80065;
+}
+
+/* ===== Franja de cifras ===== */
+.franja {
+    width: 100%;
+    background-color: #e6007e;
+    color: #ffffff;
+    text-align: center;
+}
+
+.franja td {
+    padding: 35px 10px;
+    width: 25%;
+    font-size: 18px;
+}
+
+.franja b {
+    display: block;
+    font-size: 44px;
+}
+
+/* ===== Descripción del continente ===== */
+.descripcion {
+    width: 100%;
+}
+
+.descripcion td {
+    padding: 0 20px;
+    vertical-align: top;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.descripcion .frase {
+    width: 35%;
+    font-size: 30px;
+    font-weight: bold;
+    color: #1d1d1b;
+    border-right: 4px solid #e6007e;
+}
+
+.descripcion .frase span {
+    color: #e6007e;
+}
+
+/* ===== Tarjetas de ecosistemas ===== */
+.ecosistemas {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 20px;
+}
+
+.ecosistema {
+    width: 50%;
+    padding: 0;
+    vertical-align: top;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+}
+
+.ecosistema img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.ecosistema .cuerpo {
+    padding: 20px;
+}
+
+.pais {
+    padding: 3px 10px;
+    background-color: #e6007e;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.ecosistema h3 {
+    margin: 12px 0 6px;
+    font-size: 24px;
+    color: #1d1d1b;
+}
+
+.ecosistema p {
+    color: #555555;
+}
+
+/* Tabla de actividad, hotel y restaurante */
+.recomendaciones {
+    width: 100%;
+}
+
+.recomendaciones th,
+.recomendaciones td {
+    padding: 10px 6px;
+    border-top: 1px solid #e6e6e6;
+    text-align: left;
+    vertical-align: top;
+}
+
+.recomendaciones th {
+    width: 30%;
+    color: #e6007e;
+    font-size: 14px;
+}
+
+.recomendaciones small {
+    color: #888888;
+}
+
+/* ===== Tabla de créditos ===== */
+.creditos {
+    width: 100%;
+}
+
+.creditos th {
+    background-color: #1d1d1b;
+    color: #ffffff;
+    text-align: left;
+    padding: 12px;
+}
+
+.creditos td {
+    padding: 10px 12px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.creditos a {
+    color: #e6007e;
+}
+
+/* ===== Pie de página ===== */
+.pie {
+    width: 100%;
+    background-color: #1d1d1b;
+    color: #bbbbbb;
+}
+
+.pie td {
+    padding: 35px 30px;
+    vertical-align: top;
+}
+
+.pie h3 {
+    color: #ffffff;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.pie a {
+    color: #bbbbbb;
+    text-decoration: none;
+    line-height: 1.8;
+}
+
+.pie a:hover {
+    color: #e6007e;
+}
+
+.pie .final {
+    text-align: center;
+    border-top: 1px solid #333333;
+    padding: 15px;
+    font-size: 14px;
+}
